@@ -1,18 +1,9 @@
-:root {
-  --hero-pink: #f7c6d9;
-  --light-pink: #fbe3ec;
-  --mid-pink: #f3b6cc;
-  --white: #ffffff;
-  --text: #222;
-  --muted: #666;
-}
-
 /* GLOBAL */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: var(--white);
-  color: var(--text);
+  background: #ffffff;
+  color: #222;
 }
 
 /* HERO */
@@ -26,13 +17,11 @@ body {
   position: relative;
 }
 
-/* overlay card */
 .hero-overlay {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255,255,255,0.85);
   padding: 40px;
   max-width: 700px;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-radius: 12px;
 }
 
 .logo {
@@ -52,7 +41,7 @@ h1 {
 
 .subtext {
   font-size: 14px;
-  color: var(--muted);
+  color: #666;
   margin-bottom: 20px;
 }
 
@@ -81,30 +70,16 @@ h1 {
   color: #000;
 }
 
-/* SECTIONS (base) */
+/* SECTIONS */
 .section {
-  padding: 70px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
-/* alternating backgrounds */
-.services {
-  background: var(--light-pink);
-}
-
-.contact {
-  background: var(--light-pink);
-}
-
-.mobile {
-  background: var(--hero-pink);
-}
-
 .highlight {
-  background: var(--mid-pink);
+  background: #f8f8f8;
 }
 
-/* headings */
 h2 {
   font-size: 28px;
   margin-bottom: 20px;
@@ -125,7 +100,6 @@ h2 {
   width: 150px;
   border-radius: 10px;
   font-size: 16px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 /* PRICE LIST */
@@ -137,7 +111,7 @@ h2 {
 
 .note {
   font-size: 12px;
-  color: var(--muted);
+  color: #777;
   margin-top: 10px;
 }
 
