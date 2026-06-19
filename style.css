@@ -93,11 +93,11 @@ h1 {
 }
 
 .contact {
-  background: var(--light-pink);
+  background: var(--hero-pink);
 }
 
 .mobile {
-  background: var(--hero-pink);
+  background: var(--light-pink);
 }
 
 .highlight {
